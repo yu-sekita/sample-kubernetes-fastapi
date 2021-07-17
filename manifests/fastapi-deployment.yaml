@@ -18,6 +18,6 @@ spec:
         app: fastapi-deployment
     spec:
       containers:
-      - image: yu1108/sample-fastapi:latest
+      - image: yusekita/sample-fastapi:latest
         imagePullPolicy: Always
         name: sample-fastapi-container
